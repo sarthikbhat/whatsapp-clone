@@ -1,0 +1,45 @@
+:root{
+  --primary-clr:#00a884;
+  --dark-clr: #111b21;
+  --light-clr: #202c33;
+  --icon-text-clr-light: #798992;
+  --text-clr: rgba(233,237,239,0.88);
+  --text-clr-light: #8696a0;
+  
+}
+
+html *{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./assets/fonts/SEGOEUI.TTF) format('ttf');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--dark-clr);
+  font-family: "Segoe UI";
+}
+  
+.dFlex{
+  display: flex;
+}
+
+.dFlexJustifyCenter{
+  display: flex;
+  justify-content: center;
+}
+
+.dFlexAlignCenterJustifyCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
