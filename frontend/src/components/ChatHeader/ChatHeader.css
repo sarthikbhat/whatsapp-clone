@@ -1,0 +1,26 @@
+.chatHeader{
+    background:var(--light-clr);
+    height:2rem;
+    padding: 0 1rem;
+    display: flex;
+    flex: 0.076;
+    min-height: 3.7rem;
+    max-height: 3.7rem;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+
+.userProfile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.userName{
+    color: #ffffff;
+    font-weight: 400; 
+    font-size: 1.2rem;  
+    flex: 1;
+    display: flex;
+}

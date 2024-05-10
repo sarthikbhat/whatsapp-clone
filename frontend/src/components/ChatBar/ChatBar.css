@@ -1,0 +1,146 @@
+.filterContainer {
+  margin: 2% 0;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0 10px;
+}
+
+.searchBar {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  /* height: 10%; */
+  padding: 1.9% 1rem;
+  background: var(--light-clr);
+  border-radius: 10px;
+}
+
+.searchInput {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  padding: 2.6% 1rem;
+  padding-left: 14%;
+  background: var(--light-clr);
+  border: none;
+  border-radius: 10px;
+  color: var(--icon-text-clr-light);
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.searchInput::-webkit-input-placeholder{
+    font-size: 0.86rem;
+    color: var(--icon-text-clr-light)
+}
+
+.searchIcon{
+    position: absolute;
+    left: 6%;
+    top: 30%;
+}
+
+.Chat {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.userProfileChatBar img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.messagesandtime {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9edef1f;
+  cursor: pointer;
+}
+
+.messages {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.messages .name {
+  color: #ffffff;
+}
+
+.f-500{
+  font-weight: 500;
+}
+
+.active .time{
+  color: var(--primary-clr) !important;
+}
+
+.messages .msg {
+  color: var(--icon-text-clr-light);
+}
+
+.timeandother{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.timeandother .time {
+  font-size: 12px;
+  color: var(--icon-text-clr-light);
+}
+
+.timeandother .unread{
+  background: var(--primary-clr);
+  width: 1.3rem;
+  height: 1.3rem;
+  color: #000000;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.chatContainer {
+  height: 93%;
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #374045;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #374045;
+}
+
+::-webkit-scrollbar-corner{
+  background: transparent;
+}

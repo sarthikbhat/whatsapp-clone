@@ -1,0 +1,15 @@
+.chatBarHeader{
+    background:var(--light-clr);
+    height:2rem;
+    padding: 0 1rem;
+    display: flex;
+    flex: 0.07;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.userProfile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
